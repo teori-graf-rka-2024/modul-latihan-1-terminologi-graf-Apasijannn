@@ -1,4 +1,4 @@
-import graph  # Mengimpor file graph.py yang telah dibuat sebelumnya
+import graph as g # Mengimpor file graph.py yang telah dibuat sebelumnya
 
 # Membuat graf 
 edges = [(1, 2), (2, 3), (3, 4), (4, 1), (1, 3)]
