@@ -40,7 +40,7 @@ while queue:
 
 print("BFS Traversal from node 1:", bfs_result)
 
-# Menemukan jalur terpendek
+# Shortest path
 source, target = 1, 4
 try:
     shortest_path = nx.shortest_path(G, source=source, target=target)
